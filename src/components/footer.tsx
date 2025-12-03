@@ -12,10 +12,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">Product</h3>
             <ul className="space-y-2">
-              <li><Link href="#features" className="text-gray-600 hover:text-blue-600">Features</Link></li>
-              <li><Link href="#pricing" className="text-gray-600 hover:text-blue-600">Pricing</Link></li>
-              <li><Link href="/dashboard" className="text-gray-600 hover:text-blue-600">Dashboard</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">API</Link></li>
+              <li><Link href="#features" className="text-gray-600 hover:text-[rgb(255,139,10)]">Features</Link></li>
+              <li><Link href="#pricing" className="text-gray-600 hover:text-[rgb(255,139,10)]">Pricing</Link></li>
+              <li><Link href="/dashboard" className="text-gray-600 hover:text-[rgb(255,139,10)]">Dashboard</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">API</Link></li>
             </ul>
           </div>
 
@@ -23,10 +23,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">About</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Blog</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Careers</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Press</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">About</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Blog</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Careers</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Press</Link></li>
             </ul>
           </div>
 
@@ -34,10 +34,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Documentation</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Help Center</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Community</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Status</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Documentation</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Help Center</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Community</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Status</Link></li>
             </ul>
           </div>
 
@@ -45,10 +45,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Privacy</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Terms</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Security</Link></li>
-              <li><Link href="#" className="text-gray-600 hover:text-blue-600">Cookies</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Privacy</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Terms</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Security</Link></li>
+              <li><Link href="#" className="text-gray-600 hover:text-[rgb(255,139,10)]">Cookies</Link></li>
             </ul>
           </div>
         </div>

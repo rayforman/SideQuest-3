@@ -27,10 +27,10 @@ export default function BottomNav() {
               href={item.href}
               className={cn(
                 "flex flex-col items-center justify-center gap-1 flex-1 h-full transition-colors",
-                isActive ? "text-blue-600" : "text-gray-600 hover:text-gray-900"
+                isActive ? "text-[rgb(255,139,10)]" : "text-gray-600 hover:text-gray-900"
               )}
             >
-              <Icon className={cn("w-6 h-6", isActive && "fill-blue-600")} />
+              <Icon className={cn("w-6 h-6", isActive && "fill-[rgb(255,139,10)]")} />
               <span className="text-xs font-medium">{item.label}</span>
             </Link>
           );

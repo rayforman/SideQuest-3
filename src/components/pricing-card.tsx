@@ -52,13 +52,13 @@ export default function PricingCard({ item, user }: {
     };
 
     return (
-        <Card className={`w-[350px] relative overflow-hidden ${item.popular ? 'border-2 border-blue-500 shadow-xl scale-105' : 'border border-gray-200'}`}>
+        <Card className={`w-[350px] relative overflow-hidden ${item.popular ? 'border-2 border-[rgb(255,139,10)] shadow-xl scale-105' : 'border border-gray-200'}`}>
             {item.popular && (
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 opacity-30" />
+                <div className="absolute inset-0 bg-gradient-to-br from-[rgba(255,139,10,0.1)] via-white to-[rgba(255,139,10,0.05)] opacity-30" />
             )}
             <CardHeader className="relative">
                 {item.popular && (
-                    <div className="px-4 py-1.5 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full w-fit mb-4">
+                    <div className="px-4 py-1.5 text-sm font-medium text-white bg-gradient-to-r from-[rgb(255,139,10)] to-[rgb(255,165,44)] rounded-full w-fit mb-4">
                         Most Popular
                     </div>
                 )}

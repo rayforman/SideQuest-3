@@ -78,7 +78,7 @@ export default function OnboardingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-[rgba(255,139,10,0.05)] via-white to-[rgba(255,139,10,0.03)] flex items-center justify-center p-4">
       <div className="w-full max-w-2xl bg-white rounded-3xl shadow-xl p-8">
         {/* Progress bar */}
         <div className="flex items-center justify-between mb-8">
@@ -87,7 +87,7 @@ export default function OnboardingPage() {
               key={s}
               className={cn(
                 "flex-1 h-2 rounded-full mx-1 transition-colors",
-                s <= step ? "bg-blue-600" : "bg-gray-200"
+                s <= step ? "bg-[rgb(255,139,10)]" : "bg-gray-200"
               )}
             />
           ))}
@@ -97,7 +97,7 @@ export default function OnboardingPage() {
         {step === 1 && (
           <div className="space-y-6">
             <div className="text-center mb-8">
-              <Compass className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+              <Compass className="w-16 h-16 text-[rgb(255,139,10)] mx-auto mb-4" />
               <h1 className="text-3xl font-bold mb-2">What interests you?</h1>
               <p className="text-gray-600">
                 Select all that apply to personalize your quest feed
@@ -112,7 +112,7 @@ export default function OnboardingPage() {
                   className={cn(
                     "p-4 rounded-xl border-2 transition-all hover:scale-105",
                     selectedInterests.includes(interest.id)
-                      ? "border-blue-600 bg-blue-50"
+                      ? "border-[rgb(255,139,10)] bg-[rgba(255,139,10,0.1)]"
                       : "border-gray-200 hover:border-gray-300"
                   )}
                 >
@@ -136,7 +136,7 @@ export default function OnboardingPage() {
         {step === 2 && (
           <div className="space-y-6">
             <div className="text-center mb-8">
-              <MapPin className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+              <MapPin className="w-16 h-16 text-[rgb(255,139,10)] mx-auto mb-4" />
               <h1 className="text-3xl font-bold mb-2">Where are you based?</h1>
               <p className="text-gray-600">
                 We'll use this to suggest quests from your location
@@ -179,7 +179,7 @@ export default function OnboardingPage() {
         {step === 3 && (
           <div className="space-y-6">
             <div className="text-center mb-8">
-              <DollarSign className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+              <DollarSign className="w-16 h-16 text-[rgb(255,139,10)] mx-auto mb-4" />
               <h1 className="text-3xl font-bold mb-2">What's your budget?</h1>
               <p className="text-gray-600">Choose your preferred price range</p>
             </div>
@@ -192,7 +192,7 @@ export default function OnboardingPage() {
                   className={cn(
                     "w-full p-6 rounded-xl border-2 transition-all text-left hover:scale-[1.02]",
                     budgetPreference === budget.id
-                      ? "border-blue-600 bg-blue-50"
+                      ? "border-[rgb(255,139,10)] bg-[rgba(255,139,10,0.1)]"
                       : "border-gray-200 hover:border-gray-300"
                   )}
                 >
@@ -234,7 +234,7 @@ export default function OnboardingPage() {
         {step === 4 && (
           <div className="space-y-6">
             <div className="text-center mb-8">
-              <Clock className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+              <Clock className="w-16 h-16 text-[rgb(255,139,10)] mx-auto mb-4" />
               <h1 className="text-3xl font-bold mb-2">Trip duration?</h1>
               <p className="text-gray-600">
                 How long do you typically travel for?
@@ -249,7 +249,7 @@ export default function OnboardingPage() {
                   className={cn(
                     "w-full p-6 rounded-xl border-2 transition-all text-left hover:scale-[1.02]",
                     durationPreference === duration.id
-                      ? "border-blue-600 bg-blue-50"
+                      ? "border-[rgb(255,139,10)] bg-[rgba(255,139,10,0.1)]"
                       : "border-gray-200 hover:border-gray-300"
                   )}
                 >

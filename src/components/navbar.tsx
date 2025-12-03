@@ -16,10 +16,10 @@ export default async function Navbar() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" prefetch className="flex items-center">
           <Image 
-            src="/sq-logo-horizontal.png" 
+            src="/sq-logo.png" 
             alt="Logo" 
-            width={120} 
-            height={40} 
+            width={1536} 
+            height={313} 
             className="h-10 w-auto"
             priority
           />

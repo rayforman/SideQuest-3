@@ -204,7 +204,7 @@ export default function SearchPage() {
                 className={cn(
                   "cursor-pointer capitalize",
                   selectedCategories.includes(category) &&
-                    "bg-blue-600 hover:bg-blue-700"
+                    "bg-[rgb(255,139,10)] hover:bg-[rgb(230,125,9)]"
                 )}
                 onClick={() => toggleCategory(category)}
               >
@@ -227,7 +227,7 @@ export default function SearchPage() {
                 className={cn(
                   "cursor-pointer",
                   selectedDuration === duration.id &&
-                    "bg-blue-600 hover:bg-blue-700"
+                    "bg-[rgb(255,139,10)] hover:bg-[rgb(230,125,9)]"
                 )}
                 onClick={() =>
                   setSelectedDuration(
@@ -251,7 +251,7 @@ export default function SearchPage() {
                 variant={selectedBudget === budget ? "default" : "outline"}
                 className={cn(
                   "cursor-pointer",
-                  selectedBudget === budget && "bg-blue-600 hover:bg-blue-700"
+                  selectedBudget === budget && "bg-[rgb(255,139,10)] hover:bg-[rgb(230,125,9)]"
                 )}
                 onClick={() =>
                   setSelectedBudget(selectedBudget === budget ? "" : budget)
@@ -267,7 +267,7 @@ export default function SearchPage() {
         {hasActiveFilters && (
           <button
             onClick={clearFilters}
-            className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700 font-medium"
+            className="flex items-center gap-2 text-sm text-[rgb(255,139,10)] hover:text-[rgb(230,125,9)] font-medium"
           >
             <X className="w-4 h-4" />
             Clear all filters

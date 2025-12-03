@@ -23,7 +23,7 @@ export default function DashboardNavbar() {
         <div className="flex items-center gap-4">
           <Link href="/" prefetch className="flex items-center">
             <Image 
-              src="/sq-logo-horizontal.png" 
+              src="/sq-logo.png"
               alt="Logo" 
               width={120} 
               height={40} 

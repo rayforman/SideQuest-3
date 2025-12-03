@@ -156,7 +156,7 @@ export default function QuestsPage() {
         </p>
         <button
           onClick={handleRefresh}
-          className="px-6 py-3 bg-blue-600 rounded-full font-semibold hover:bg-blue-700 transition-colors"
+          className="px-6 py-3 bg-[rgb(255,139,10)] rounded-full font-semibold hover:bg-[rgb(230,125,9)] transition-colors"
         >
           Refresh Now
         </button>

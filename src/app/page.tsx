@@ -37,7 +37,7 @@ export default async function Home() {
               { icon: <Zap className="w-6 h-6" />, title: "AI Personalized", description: "Recommendations based on your interests" }
             ].map((feature, index) => (
               <div key={index} className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <div className="text-blue-600 mb-4">{feature.icon}</div>
+                <div className="text-[rgb(255,139,10)] mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
@@ -47,20 +47,20 @@ export default async function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-[rgb(255,139,10)] text-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">$1M+</div>
-              <div className="text-blue-100">Funding Raised</div>
+              <div className="text-white/90">Funding Raised</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">500+</div>
-              <div className="text-blue-100">Happy Customers</div>
+              <div className="text-white/90">Happy Customers</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">99.9%</div>
-              <div className="text-blue-100">Uptime Guaranteed</div>
+              <div className="text-white/90">Uptime Guaranteed</div>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default async function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">Join thousands of satisfied customers who trust us with their business.</p>
-          <a href="/dashboard" className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
+          <a href="/dashboard" className="inline-flex items-center px-6 py-3 text-white bg-[rgb(255,139,10)] rounded-lg hover:bg-[rgb(230,125,9)] transition-colors">
             Get Started Now
             <ArrowUpRight className="ml-2 w-4 h-4" />
           </a>
